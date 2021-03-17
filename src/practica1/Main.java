@@ -7,7 +7,7 @@ package practica1;
 
 /**
  *
- * @author diieg
+ * @author DiegoBrine269
  */
 public class Main {
 
@@ -16,6 +16,10 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Ejercicios ejercicio = new Ejercicios();
+        ejercicio.ejercicio1();
+        ejercicio.ejercicio2();
+        ejercicio.ejercicio3(5);
     }
     
 }
