@@ -13,7 +13,7 @@ public class Ejercicios {
                 contador++;
             }
         }
-        System.out.println(contador);
+        System.out.println("Hay " + contador + " números mayores a 10");
     }
 
     public void ejercicio2 (){
