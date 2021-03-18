@@ -7,7 +7,7 @@ package practica1;
 
 /**
  *
- * @author DiegoBrine269
+ * @author DiegoBrine269, RicardoUMC
  */
 public class Main {
 
