@@ -19,7 +19,7 @@ public class Main {
         Ejercicios ejercicio = new Ejercicios();
         ejercicio.ejercicio1();
         ejercicio.ejercicio2();
-        ejercicio.ejercicio3(5);
+        ejercicio.ejercicio3(6);
     }
     
 }
