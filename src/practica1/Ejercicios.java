@@ -12,7 +12,9 @@ public class Ejercicios {
     }
 
     public void ejercicio2 (){
+        List<String> colors = List.of("rojo","azul","verde","morado","naranja","amarillo");
         
+        System.out.println("¿El color es rojo?: " + colors.contains("rojo"));
     }
 
     public void ejercicio3 (int numero){
