@@ -6,14 +6,9 @@ public class Ejercicios {
     
     public void ejercicio1 (){
         List<Integer> numeros = List.of(18,6,4,15,55,78,12,9,8);
-        int contador = 0;
         
-        for(int numero : numeros){
-            if(numero > 10){
-                contador++;
-            }
-        }
-        System.out.println("Hay " + contador + " números mayores a 10");
+        Long result = numeros.stream().filter(num -> num > 10).count();
+        System.out.println("Hay " + result + " números mayores a 10");
     }
 
     public void ejercicio2 (){
