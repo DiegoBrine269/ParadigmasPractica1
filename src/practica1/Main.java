@@ -17,9 +17,12 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         Ejercicios ejercicio = new Ejercicios();
+        System.out.println("EJERCICIO 1");
         ejercicio.ejercicio1();
+        System.out.println("\nEJERCICIO 2");
         ejercicio.ejercicio2();
-        ejercicio.ejercicio3(6);
+        System.out.println("\nEJERCICIO 3");
+        ejercicio.ejercicio3(5);
     }
     
 }

@@ -1,5 +1,5 @@
 package practica1;
-import java.lang.Math;
+import java.lang.Math; //Biblioteca para tercer ejercicio
 import java.util.List; //Biblioteca para primer y segundo ejercicio
 
 //"java.util.List, represents an ordered sequence of objects. 
